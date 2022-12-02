@@ -1,0 +1,223 @@
+.coffee-list__block{
+    display: flex;
+}
+.coffee-left__block{
+    margin-right: 125px;
+}
+.item__01{
+    max-width: 255px;
+    border-bottom: 1px solid #83888F;
+}
+.item-01__p{
+opacity: 0.4;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+}
+.item__02{
+    max-width: 255px;
+    border-bottom: 1px solid #83888F;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+.item-02__p{
+    font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+}
+.item-05__p{
+    font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+}
+.drink__coffee-item-block{
+    max-width: 730px;
+}
+.drink__coffee-list{
+    max-width: 730px;
+    display: flex;
+}
+.drink-coffee__title{
+    font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #83888F;
+}
+.drink__coffee-item + .drink__coffee-item{
+    margin-left: 23px;
+}
+.drink__coffee-item{
+    width: 228px;
+    background: #F4F1EB;
+border-radius: 8px;
+padding: 32px 28px 84px 28px;
+}
+.drink__coffee-item-title{
+    font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+margin-bottom: 24px;
+margin-top: 0;
+}
+.drink__coffee-item-text{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+margin: 0;
+}
+.drink__coffee-item:nth-child(2){
+    background: #0E8784;
+border-radius: 8px;
+}
+.drink__coffee-item:nth-child(2) > h4{
+    color: #FFFFFF;
+}
+.drink__coffee-item:nth-child(2) > p{
+    color: #FFFFFF;
+}
+.drink__coffee{
+    margin-bottom: 88px;
+}
+.drink__coffee2{
+    margin-bottom: 88px;
+}
+.drink__coffee-list2{
+    display: flex;
+}
+.drink__coffee-list2 > li:nth-child(2){
+    background: #F4F1EB;
+}
+.drink__coffee-list2 > li:nth-child(2) > h4{
+    color: #333D4B;
+}
+.drink__coffee-list2 > li:nth-child(2) > p{
+
+    color: #333D4B;
+}
+.drink__coffee-list2 > li:nth-child(1){
+    background: #0E8784;
+}
+.drink__coffee-list2 > li:nth-child(1) > h4{
+    color: #fff;
+}
+.drink__coffee-list2 > li:nth-child(1) > p{
+    color: #fff;
+}
+
+.drink__coffee-list3{
+    display: flex;
+}
+.drink__coffee-list3> li:nth-child(3) {
+    background: #0E8784;
+}
+.drink__coffee-list3> li:nth-child(2){
+    background: #F4F1EB;
+}
+.drink__coffee-list3> li:nth-child(2) > h4{
+    color: #333D4B;
+}
+.drink__coffee-list3> li:nth-child(2) > p{
+  color: #333D4B;
+}
+.drink__coffee-list3> li:nth-child(3) > h4{
+    color: white;
+}
+.drink__coffee-list3> li:nth-child(3) > p{
+    color: white;
+}
+
+.summary__title{
+    max-width: 873px;
+    height: auto;
+    background: #2C343E;
+    padding: 27px 64px;
+    margin-bottom: 40px;
+}
+.summary__title > p{
+    font-family: 'Barlow';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+opacity: 0.5;
+}
+.summary__title > h2{
+    font-weight: 900;
+font-size: 24px;
+line-height: 40px;
+color: #FFFFFF;
+}
+.summary__title{
+    max-width: 602px;
+    border-radius: 12px;
+}
+.summary__btn{
+    width: 217px;
+    background: #0E8784;
+border-radius: 6px;
+padding: 15px 0;
+border: none;
+}
+.summary__btn > a {
+    font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+}
+.btn__block{
+    margin-bottom: 184px;
+}
+@media screen and (max-width:800px) {
+    .coffee-left__block{
+        display: none;
+    }
+    .flex-coffee{
+        margin: 0 auto;
+    }
+     .coffee-list__container{
+        padding: 0 20px; 
+     }
+     .drink__coffee-item{
+        margin-bottom: 16px;
+     }
+}
+@media screen and (max-width:750px) {
+    .coffee-left__block{
+        display: none;
+    }
+    .flex-coffee{
+        margin: 0 auto;
+      
+    }
+    .ul__flex{
+        flex-direction: column;
+    }
+    .drink__coffee-item{
+        max-width: 680px;
+        width: 100%;
+    }
+    .drink__coffee-item + .drink__coffee-item{
+        margin-left: 0px;
+    }
+ .drink-coffee__title{
+    margin-top: 0;
+    font-size: 24px;
+line-height: 28px;
+ }
+
+ .summary__title{
+    padding: 32px 25px  ;
+    margin-bottom: 40px;
+}
+.btn__block{
+    margin-bottom: 120px;
+}
+}
